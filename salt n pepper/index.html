@@ -1,0 +1,340 @@
+
+   <!DOCTYPE html>
+   <html lang="en">
+   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salt'n'Pepper</title>
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- navbar start -->
+    <div class="navbar">
+        <div class="logo-container">
+            <img class="logo" src="https://images-beta.tossdown.com/site/65b73fb7-2706-4440-87b9-9555fcd0ba80.webp"
+                alt="Logo" />
+        </div>
+
+        <div class="hamburger" onclick="toggleMenu()">
+            ☰
+        </div>
+
+        <ul class="list" id="navList">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Publications</a></li>
+            <li><button class="navbtn">Get a Franchise</button></li>
+            <li><button class="navbtn navactive">Order Online</button></li>
+        </ul>
+    </div>
+
+    <!-- navbar end -->
+
+    <!-- slider start -->
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://static.tossdown.com/images/9025f107-a9b4-4242-ba97-bee6af69fa9d.webp"
+                    class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://static.tossdown.com/images/ac51af11-090c-49e8-9296-472de72fc5cb.webp"
+                    class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- slider end -->
+
+    <!-- brand card start -->
+    <div class="container-fluid">
+        <div class="container">
+            <div class="brand-heading">
+                <h1>Welcome to <b>Salt'n Pepper by Umer Khan</b><br>Restaurants! Our Brands</h1>
+                <p>Please click our brands below for further information, reservations or to order online!
+                </p>
+            </div>
+            <section class="hero">
+                <div class="brands">
+                    <div class="brand">
+                        <img src="https://static.tossdown.com/site/8a66dd76-03d2-4b71-8d03-cf045f0248a7.webp"
+                            alt="Restaurant" class="brand-image" />
+                        <button class="brndbtn">Order Now</button>
+                    </div>
+                    <div class="brand">
+                        <img src="https://static.tossdown.com/site/9d9cb355-ac8c-404e-a608-c28242343cd1.webp"
+                            alt="Express" class="brand-image" />
+                        <button class="brndbtn">Order Now</button>
+                    </div>
+                    <div class="brand">
+                        <img src="https://static.tossdown.com/site/f9238d0e-7c34-4139-a081-c57b7713628e.webp"
+                            alt="Village" class="brand-image" />
+                        <button class="brndbtn">Reserve a Table</button>
+                    </div>
+                    <div class="brand">
+                        <img src="https://static.tossdown.com/images/38f64422-c79a-4650-8df2-5668743154df.webp"
+                            alt="Signature" class="brand-image brnd-img" />
+                        <button class="brndbtn">Order Now</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <!-- brand card end -->
+
+    <!-- location start -->
+    <section class="franchise-section">
+        <div class="franchise-header">
+            <h1><span class="logo-text">Salt'n Pepper</span></h1>
+            <h2>Restaurant Franchises</h2>
+            <p>Each of our franchises are individually managed. For further details, kindly contact them directly.</p>
+        </div>
+
+        <div class="franchise-card">
+            <div class="franchise-info">
+                <p class="city">ISLAMABAD</p>
+                <h3><span class="logo-text">Salt'n Pepper</span> Restaurant</h3>
+                <p class="detail"><span class="icon"><i class="fa-solid fa-location-dot"></i></span> Plot# 55, Shabbir
+                    Plaza, Gulshan e Maymar, F-6, Karachi</p>
+                <p class="detail"><span class="icon"><i class="fa-solid fa-phone"></i></span> Ph: 051-2604904-6</p>
+                <button class="direction-btn">
+                    Get Directions <span class="arrow"><i class="fa-solid fa-arrow-right"></i></span>
+                </button>
+            </div>
+            <div class="franchise-image">
+                <img src="https://images-beta.tossdown.com/site/7aba8915-02ed-46ee-bd96-1063abe072fa.webp"
+                    alt="Islamabad Branch" />
+            </div>
+        </div>
+    </section>
+    <section class="franchise-section">
+        <div class="franchise-card">
+            <div class="franchise-image">
+                <img src="https://images-beta.tossdown.com/site/11771dbf-36a1-4684-a55e-18af61e0f77c.webp"
+                    alt="Faisalabad Branch" />
+            </div>
+            <div class="franchise-info">
+                <p class="city">Faisalabad</p>
+                <h3><span class="logo-text">Salt'n Pepper</span> Restaurant</h3>
+                <p class="detail"><span class="icon"><i class="fa-solid fa-location-dot"></i></span> 4-Kohinoor City,
+                    Faisalabad</p>
+                <p class="detail"><span class="icon"><i class="fa-solid fa-phone"></i></span>Ph: Ph: 041-8711404</p>
+                <button class="direction-btn">
+                    Get Directions <span class="arrow"><i class="fa-solid fa-arrow-right"></i></span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="franchise-section">
+        <div class="franchise-card">
+            <div class="franchise-info">
+                <p class="city">Bahawalpur</p>
+                <h3><span class="logo-text">Salt'n Pepper</span> Restaurant</h3>
+                <p class="detail"><span class="icon"><i class="fa-solid fa-location-dot"></i></span> D.C Chowk, opposite
+                    Commissioner House, Bahawalpur</p>
+                <p class="detail"><span class="icon"><i class="fa-solid fa-phone"></i></span>Ph: 062-2740271-2</p>
+                <button class="direction-btn">
+                    Get Directions <span class="arrow"><i class="fa-solid fa-arrow-right"></i></span>
+                </button>
+            </div>
+            <div class="franchise-image">
+                <img src="https://images-beta.tossdown.com/site/b2f78afe-11e4-4af5-8aef-cff9c2908614.webp"
+                    alt="Bahawalpur Branch" />
+            </div>
+        </div>
+    </section>
+    <section class="franchise-express franchise-section">
+        <div class="franchise-header">
+            <h1><span class="logo-text">Salt'n Pepper</span></h1>
+            <h2>Express Franchises</h2>
+        </div>
+        <div class="card-group">
+            <div class="card">
+                <img src="https://static.tossdown.com/images/0f3ddba0-18a0-450e-af77-188aeb795934.webp"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Sargodha</h5>
+                    <h1><b>Salt'n Pepper</b> Express</h1>
+                    <p class="card-text"><i class="fa-solid fa-location-dot"></i> Opposite Sargodha Arts Council Babar
+                        Road</p>
+                    <p class="card-text"><i class="fa-solid fa-phone"></i> Ph: 048-3725500</p>
+                    <button class="direction-btn">
+                        Get Directions <span class="arrow"><i class="fa-solid fa-arrow-right"></i></span>
+                    </button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://static.tossdown.com/images/171bb884-f60a-4d94-a0b9-78204522564e.webp"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Jhelum</h5>
+                    <h1><b>Salt'n Pepper</b> Express</h1>
+                    <p class="card-text"><i class="fa-solid fa-location-dot"></i> Opposite Dancing Fountain Gallery 2
+                        Citi Housing Jhelum,
+                    </p>
+                    <p class="card-text"><i class="fa-solid fa-phone"></i> Ph: 0307-7675555</p>
+                    <button class="direction-btn">
+                        Get Directions <span class="arrow"><i class="fa-solid fa-arrow-right"></i></span>
+                    </button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://static.tossdown.com/images/31b37f0c-5936-4232-a55e-8042c2656526.webp"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Faisal Town</h5>
+                    <h1><b>Salt'n Pepper</b> Express</h1>
+                    <p class="card-text"><i class="fa-solid fa-location-dot"></i> 34-C Abul Hassan Isfahani Rd, Faisal
+                        Town,Lahore</p>
+                    <p class="card-text"><i class="fa-solid fa-phone"></i> Ph: 042-111-100-678</p>
+                    <button class="direction-btn">
+                        Get Directions <span class="arrow"><i class="fa-solid fa-arrow-right"></i></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="card-group">
+            <div class="card">
+                <img src="https://static.tossdown.com/images/2b5877b5-ca49-4161-a30e-752ddce91595.webp"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">DHA</h5>
+                    <h1><b>Salt'n Pepper</b> Express</h1>
+                    <p class="card-text"><i class="fa-solid fa-location-dot"></i> 93-Y Phase III, DHA,Lahore
+                    </p>
+                    <p class="card-text"><i class="fa-solid fa-phone"></i> Ph: 042-111-100-678</p>
+                    <button class="direction-btn">
+                        Get Directions <span class="arrow"><i class="fa-solid fa-arrow-right"></i></span>
+                    </button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://static.tossdown.com/images/0cdc03af-9732-4d0c-9174-f4e66953b3c8.webp"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Bahria Town</h5>
+                    <h1><b>Salt'n Pepper</b> Express</h1>
+                    <p class="card-text"><i class="fa-solid fa-location-dot"></i> Arwa Heights Building 19 Nishtar
+                        Block, Sector E, Bahria Town Lahore
+                    </p>
+                    <p class="card-text"><i class="fa-solid fa-phone"></i> Ph: 042-111-100-678</p>
+                    <button class="direction-btn">
+                        Get Directions <span class="arrow"><i class="fa-solid fa-arrow-right"></i></span>
+                    </button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://static.tossdown.com/images/a860f757-114b-4453-ba86-f7b24dc0f24e.webp"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Gujar Khan</h5>
+                    <h1><b>Salt'n Pepper</b> Express</h1>
+                    <p class="card-text"><i class="fa-solid fa-location-dot"></i> New Metro City Gujar Khan
+                    </p>
+                    <p class="card-text"><i class="fa-solid fa-phone"></i> Ph: 0321-1114965</p>
+                    <button class="direction-btn">
+                        Get Directions <span class="arrow"><i class="fa-solid fa-arrow-right"></i></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- location end -->
+
+    <!-- footer start -->
+    <footer>
+        <div class="footer">
+            <div class="ft-logo">
+                <img src="https://static.tossdown.com/images/da52b9b3-ba03-4d41-bc8f-ac9e7d6a598b.webp"
+                    alt="Salt'n Pepper Logo">
+                <p>Project by Umer Khan – Bano Qabil Course
+Instructor: Sir Shahbaz Ahmed
+
+Project Title: Salt’n Pepper Restaurants – A Culinary Experience
+
+As part of my Bano Qabil course, I, Umer Khan, have developed a project highlighting one of the most iconic dining destinations in Lahore – The Salt’n Pepper Restaurants. This project reflects not just a study of the restaurant's operations and ambiance, but also the essence of gracious hospitality and fine dining in Pakistan.
+
+Salt’n Pepper Restaurants are renowned for their exceptional service, welcoming atmosphere, and a perfect blend of classic and contemporary cuisine. Whether it's a family gathering, a business meeting, or a special moment shared with loved ones, Salt’n Pepper has consistently provided a setting where unforgettable memories are created.
+
+Through this project, I aim to showcase how Salt’n Pepper has become a symbol of culinary excellence and a landmark in Lahore’s vibrant food scene.</p>
+                <div class="footer-links">
+                    <a href="#">Terms & Conditions</a> |
+                    <a href="#">Privacy Policy</a>
+                </div>
+            </div>
+
+            <div class="site-links">
+                <h4>Site Links</h4>
+                <a href="#">Home</a>
+                <a href="#">About Us</a>
+                <a href="#">Publications</a>
+                <a href="#">Get a Franchise</a>
+                <a href="#">Feedback</a>
+            </div>
+
+            <div class="contact">
+                <h4>Contact Us</h4>
+                <p><strong>Head Office Address:</strong><br> Foodconsults (Pvt) Ltd<br> 23-Usman Block, New Garden Town,
+                    Lahore, Pakistan</p>
+
+                <p><strong>Head Office Numbers:</strong><br> <a href="tel:+92428884411">+92 42 888 444 11</a><br> <a
+                        href="tel:+923350038679">+92 33 50 03 86 79</a></p>
+
+                <p><strong>Email Address:</strong><br> <a href="mailto:snpfood@brain.net.pk">snpfood@brain.net.pk</a>
+                </p>
+
+                <p><strong>Free Delivery Numbers:</strong><br> <a href="tel:++923350038679">+92 42 999 999 000</a><br>
+                    <a href="tel:++923350038679">+92 33 500 38 679</a>
+                </p>
+            </div>
+
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="social-icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                </div>
+                <div class="app-links">
+                    <img src="https://static.tossdown.com/images/15a204d9-9623-4aea-8c7a-a4419417ee7e.webp"
+                        alt="App Store">
+                    <img src="https://static.tossdown.com/images/c5c0daad-373c-4dd5-a8e8-6dcbbd142963.webp"
+                        alt="Google Play">
+                </div>
+            </div>
+        </div>
+
+        <div class="sec-footer">
+            <p>&copy; 2025 Snp Main Umer Khan</p>
+            <p>Powered by Bano Qabil.Net</p>
+        </div>
+    </footer>
+    <!-- footer end -->
+     
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
